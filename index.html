@@ -6,86 +6,150 @@
     <title>TTRPG Journal</title>
     <link rel="icon" href="favicon.png">
     <style>
+        body {
+            margin: 0;
+        }
+        h1, h2, h3{
+            margin-top: 0;
+        }
         .embed-container {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+        .nav {
+            width: 8em;
+            position: fixed;
+            z-index: 1;
+            padding: 1em;
+            border: 5px solid gray;
+            border-radius: 1em;
+        }
+        .nav a {
+            text-decoration: none;
+        }
+        .nav a:hover{
+            text-decoration: underline;
+            text-decoration-color: gray;
+        }
+        .nav h1, .nav h2, .nav h3{
+            font-size: 1em;
+            margin: 0;
+            margin-bottom: .5em;
+            color: gray;
+        }
+        .nav h2 {
+            margin-left: .5em;
+        }
+        .nav h3 {
+            margin-left: 1em;
+        }
+        .main {
+            padding: 1em;
+            padding-left: 11em;
+        }
     </style>
 </head>
 <body>
-    <h1>Campaign I: Introductions and Groundwork</h1>
-    <h2>Week 0: Introductions & Goals</h2>
-    <h3>1/11: Introductions, Mapping Out the Term</h3>
-    <p>Today, we focused on introductions and outlining the course for the term. In terms of goals, I'm looking forward to gaining a comprehensive understanding of Tabletop Roleplaying Games (TTRPGs). This course seems to provide a solid foundation for exploring the cultural and social aspects of TTRPGs, and I hope to deepen my knowledge in this area.</p>
-    <p>One notable aspect is how this course might overlap with the game development capstone I'm concurrently taking. I anticipate that the insights gained here will complement my understanding of game development, offering a broader perspective on the gaming industry. This interdisciplinary approach aligns with my goal of acquiring a well-rounded understanding of both the cultural and technical aspects of games.</p>
-    <p>Overall, my aim for this course is to integrate its content with my ongoing capstone project, creating a more comprehensive and nuanced understanding of tabletop gaming.</p>
-    <h2>Week I: Histories & Basic Terms of Tabletop Roleplaying Games (TTRPGs)</h2>
-    <h3>1/16: What are roleplaying games and where did they come from?</h3>
-    <p>Today's focus was on understanding roleplaying games (RPGs) and their origins. Interestingly, in my concurrent game development class, I'm currently working on remaking NES-Metroid, delving into the world of retro games. To complement this experience, I decided to play Castlevania for today's activity.</p>
-    <p>While Castlevania isn't conventionally categorized as a roleplaying game, its immersive elements drew some strong parallels to the concepts we discussed. The exploration and character development aspects in Castlevania resonated with the core elements of RPGs, highlighting how different genres can share immersive qualities. This experience playing Castlevania added a practical dimension to today's theoretical exploration of RPGs and broadened my understanding of immersive gameplay elements across various game types.</p>
-    <h3>1/18: How did RPGs evolve?</h3>
-    <p>Today, I read the introduction and Chapter 1 of "The Functions of Role-Playing Games" by Sarah Lynne Bowman. The book explores the core elements of RPGs: community building, game systems for problem-solving, and identity exploration. Chapter 1 delves into the historical evolution of RPGs, starting with the release of Dungeons & Dragons in 1974.</p>
-    <p>Bowman connects RPGs to cultural threads like American medievalism and J.R.R. Tolkien's influence. The chapter touches on different RPG genres, formats (tabletop, LARP, virtual), and their psychological benefits. It reinforces the idea that RPGs serve diverse desires, from storytelling to community building and identity exploration. This aligns with our discussions on RPGs as cultural tools and simulating history.</p>
-    <p>The text serves as a solid foundation for understanding RPGs in social, cultural, and psychological contexts, offering insights that resonate with our ongoing discussions in the game development capstone.</p>
-    <h1>Campaign II: Imagining Worlds</h1>
-    <h2>Week II: Modeling & Simulation</h2>
-    <h3>1/23: Can we meaningfully model people & experiences?</h3>
-    <div class="embed-container">
-        <object data="character.pdf" width="50%" height="500" type="application/pdf"></object>
+    <div class="nav">
+        <a href="#campaign-1"><h1>Campaign I</h1></a>
+        <a href="#week-0"><h2>Week 0</h2></a>
+        <a href="#day-1-11"><h3>1/11</h3></a>
+        <a href="#week-1"><h2>Week I</h2></a>
+        <a href="#day-1-16"><h3>1/16</h3></a>
+        <a href="#day-1-18"><h3>1/18</h3></a>
+        <a href="#campaign-2"><h1>Campaign II</h1></a>
+        <a href="#week-2"><h2>Week II</h2></a>
+        <a href="#day-1-23"><h3>1/23</h3></a>
+        <a href="#day-1-25"><h3>1/25</h3></a>
+        <a href="#week-3"><h2>Week III</h2></a>
+        <a href="#day-1-30"><h3>1/30</h3></a>
+        <a href="#day-2-1"><h3>2/1</h3></a>
+        <a href="#week-4"><h2>Week IV</h2></a>
+        <a href="#day-2-6"><h3>2/6</h3></a>
+        <a href="#day-2-8"><h3>2/8</h3></a>
+        <a href="#campaign-3"><h1>Campaign III</h1></a>
+        <a href="#week-5"><h2>Week V</h2></a>
+        <a href="#day-2-13"><h3>2/13</h3></a>
+        <a href="#day-2-15"><h3>2/15</h3></a>
+        <a href="#week-6"><h2>Week VI</h2></a>
+        <a href="#day-2-22"><h3>2/22</h3></a>
     </div>
-    <p>Today, I delved into Todd Nicholas Fuist's essay on tabletop role-playing games (TRPGs) from "Immersive Gameplay." The focus was on the concept of "agentic imagination." Inspired by the essay, I applied its insights by creating a Dungeons & Dragons 5e character using a random dice roll for each attribute. This unconventional approach aligned with Fuist's exploration of TRPGs as a platform for self-exploration and identity experimentation.</p>
-    <p>The dice determined my character's strengths and weaknesses, mirroring life's unpredictability. This randomness prompted me to consider perspectives and characteristics I might not have chosen intentionally, aligning with Fuist's findings on TRPGs as a tool for world exploration.</p>
-    <p>The essay's concept of "agentic imagination," where players connect their experiences to the game's narrative, was evident in the character creation process. The randomness introduced a layer of personal connection as I imagined the story behind each attribute roll, linking the fictional character to my own experiences in unexpected ways.</p>
-    <p>This practical application reinforced TRPGs as tools for identity work and social interaction, resonating with Fuist's exploration of their significance in self-discovery and connection.</p>
-    <h3>1/25: What are the perils and pitfalls of simulating history?</h3>
-    <div class="embed-container">
-        <img src="map.svg" width="50%" alt="map of the first floor of my home">
+    <div class="main">     
+        <h1 style="font-size: 3em">TTRPG Journal - Andrew Borders</h1>   
+        <h1 id="campaign-1">Campaign I: Introductions and Groundwork</h1>
+        <h2 id="week-0">Week 0: Introductions & Goals</h2>
+        <h3 id="day-1-11">1/11: Introductions, Mapping Out the Term</h3>
+        <p>Today, we focused on introductions and outlining the course for the term. In terms of goals, I'm looking forward to gaining a comprehensive understanding of Tabletop Roleplaying Games (TTRPGs). This course seems to provide a solid foundation for exploring the cultural and social aspects of TTRPGs, and I hope to deepen my knowledge in this area.</p>
+        <p>One notable aspect is how this course might overlap with the game development capstone I'm concurrently taking. I anticipate that the insights gained here will complement my understanding of game development, offering a broader perspective on the gaming industry. This interdisciplinary approach aligns with my goal of acquiring a well-rounded understanding of both the cultural and technical aspects of games.</p>
+        <p>Overall, my aim for this course is to integrate its content with my ongoing capstone project, creating a more comprehensive and nuanced understanding of tabletop gaming.</p>
+        <h2 id="week-1">Week I: Histories & Basic Terms of Tabletop Roleplaying Games (TTRPGs)</h2>
+        <h3 id="day-1-16">1/16: What are roleplaying games and where did they come from?</h3>
+        <p>Today's focus was on understanding roleplaying games (RPGs) and their origins. Interestingly, in my concurrent game development class, I'm currently working on remaking NES-Metroid, delving into the world of retro games. To complement this experience, I decided to play Castlevania for today's activity.</p>
+        <p>While Castlevania isn't conventionally categorized as a roleplaying game, its immersive elements drew some strong parallels to the concepts we discussed. The exploration and character development aspects in Castlevania resonated with the core elements of RPGs, highlighting how different genres can share immersive qualities. This experience playing Castlevania added a practical dimension to today's theoretical exploration of RPGs and broadened my understanding of immersive gameplay elements across various game types.</p>
+        <h3 id="day-1-18">1/18: How did RPGs evolve?</h3>
+        <p>Today, I read the introduction and Chapter 1 of "The Functions of Role-Playing Games" by Sarah Lynne Bowman. The book explores the core elements of RPGs: community building, game systems for problem-solving, and identity exploration. Chapter 1 delves into the historical evolution of RPGs, starting with the release of Dungeons & Dragons in 1974.</p>
+        <p>Bowman connects RPGs to cultural threads like American medievalism and J.R.R. Tolkien's influence. The chapter touches on different RPG genres, formats (tabletop, LARP, virtual), and their psychological benefits. It reinforces the idea that RPGs serve diverse desires, from storytelling to community building and identity exploration. This aligns with our discussions on RPGs as cultural tools and simulating history.</p>
+        <p>The text serves as a solid foundation for understanding RPGs in social, cultural, and psychological contexts, offering insights that resonate with our ongoing discussions in the game development capstone.</p>
+        <h1 id="campaign-2">Campaign II: Imagining Worlds</h1>
+        <h2 id="week-2">Week II: Modeling & Simulation</h2>
+        <h3 id="day-1-23">1/23: Can we meaningfully model people & experiences?</h3>
+        <div class="embed-container">
+            <object data="character.pdf" width="50%" height="500" type="application/pdf"></object>
+        </div>
+        <p>Today, I delved into Todd Nicholas Fuist's essay on tabletop role-playing games (TRPGs) from "Immersive Gameplay." The focus was on the concept of "agentic imagination." Inspired by the essay, I applied its insights by creating a Dungeons & Dragons 5e character using a random dice roll for each attribute. This unconventional approach aligned with Fuist's exploration of TRPGs as a platform for self-exploration and identity experimentation.</p>
+        <p>The dice determined my character's strengths and weaknesses, mirroring life's unpredictability. This randomness prompted me to consider perspectives and characteristics I might not have chosen intentionally, aligning with Fuist's findings on TRPGs as a tool for world exploration.</p>
+        <p>The essay's concept of "agentic imagination," where players connect their experiences to the game's narrative, was evident in the character creation process. The randomness introduced a layer of personal connection as I imagined the story behind each attribute roll, linking the fictional character to my own experiences in unexpected ways.</p>
+        <p>This practical application reinforced TRPGs as tools for identity work and social interaction, resonating with Fuist's exploration of their significance in self-discovery and connection.</p>
+        <h3 id="day-1-25">1/25: What are the perils and pitfalls of simulating history?</h3>
+        <div class="embed-container">
+            <img src="map.svg" width="50%" alt="map of the first floor of my home">
+        </div>
+        <p>Today's activity, inspired by Antero Garcia's insights into Dungeons & Dragons (D&D) systems, involved drawing a map of my childhood home in Texas. Similar to how D&D's rule system influences group understanding, this mapping exercise served as a personal artifact reflecting my experiences and memories within the space.</p>
+        <p>I chose to go with a broad overview of my home becuase when I passed the initial phase of drawing doors and rooms, things started to feel like a D&D map. I could have gone into more detail, but doing so would decrease the agency of the viewer by forcing their reality to align with mine.</p>
+        <p>Additionally, for uncertain details, I found myself filling drifting toward whatever implicitly "felt right", supporting Garcia's idea of implicit biases in gaming systems and reaffirming my choice to leave the map open to viewer interpretation.</p>
+        <h2 id="week-3">Week III: Exploration, Worldbuilding, Imagination, & Emergent Storytelling</h2>
+        <h3 id="day-1-30">1/30: Can imagination and play be effective tools for creating more meaningful narratives?</h3>
+        <p>In contemplating a past I wish to change, I found myself transported to a moment in video game development, specifically the era of the ET NES game and the subsequent lull in the industry. In this imaginative exercise, the altered past diverges from the reality of the video game crash, envisioning a scenario where thoughtful curation and quality control prevailed. The stakes are high as this alternate timeline seeks to avoid the negative impact on the gaming industry, preserving creativity, innovation, and sustained growth.</p>
+        <p>In drawing connections with Yunte Huang's article, "Our Literature, Their History," the exercise prompts reflection on the consequences of self-reflective and inward-focused discussions, much like the debates around the Yasusada hoax. Similarly, the video game industry's challenges in this altered past resonate with the need for a more genuine engagement with external perspectives, considering the impact beyond one's immediate context.</p>
+        <p>Questions arising from this imaginative exercise align with Huang's call for a teleopoetic approach. How might a more collaborative and globally informed video game industry have influenced cultural representation within games? Would this alternative past have mitigated the ethnocentric pitfalls that plagued the literary debates discussed by Huang? The exercise underscores the importance of acknowledging historical experiences and fostering a responsible, planetary imagination in both literature and the realm of video game development.</p>
+        <h3 id="day-2-1">2/1: Can games help us responsibly explore the past and other cultures?  What happens when they don’t?</h3>
+        <p>This thought-provoking blog post navigates the intricate realms of Black studies, fantasy role-playing games, and the nuanced representation of races, specifically orcs, within Dungeons & Dragons (DND). The author adeptly connects visual art, philosophical quotes, and critical perspectives to underscore the discomfort with modern attempts by DND to address racial issues.</p>
+        <p>The exploration of Black counterhumanism, influenced by esteemed thinkers like Du Bois, Césaire, Fanon, and Wynter, adds layers to the critique of liberal humanism's incorporation efforts. The post aptly critiques the perpetuation of implicit hierarchies within universal humanity, referencing Spillers and Hartman to illuminate the inherent flaws in the concept of universal rights amid racial oppression.</p>
+        <p>The parallel drawn between the struggles of orcs in DND and the historical struggles of Black people introduces a profound exploration of kinship with the abject and the concept of kinmaking beyond the human realm. This connection invites a reevaluation of metaphysical frameworks, urging the gaming community to delve into alternative perspectives that may offer a different, more profound joy.</p>
+        <p>The call for a deeper exploration of alterity in fantasy role-playing games resonates, emphasizing the need to cut through traditional narratives and embrace diverse perspectives. The author's reference to specific games and works embracing alternative viewpoints serves as a valuable guide for those seeking a richer, more inclusive gaming experience. In essence, the post encourages a reimagining of fantasy worlds that transcends conventional boundaries, fostering a space where joy emerges from embracing and celebrating difference.</p>
+        <h2 id="week-4">Week IV: Empathy & Umwelt</h2>
+        <h3 id="day-2-6">2/6: Is empathy possible?  What are the pitfalls of empathy?</h3>
+        <div class="embed-container">
+            <object data="playthrough.pdf" width="50%" height="500" type="application/pdf"></object>
+        </div>
+        <p>Today's Quill playthrough highlighted the frustrations of lacking writing skills. As a Knight with average penmanship and poor language, expressing emotions and navigating delicate situations proved challenging. It mirrored real-world struggles for those with limited literacy, emotional skills, and social status.</p>
+        <p>The letter to Archduke Godfrey revealed the difficulty of conveying heartfelt emotions with constrained language, reflecting challenges in real-life communication for those with poor literacy. Addressing concerns with Art Dealer Christina Bowbridge underscored the importance of emotional intelligence in professional relationships, resonating with challenges in academia.</p>
+        <p>Informing a bereaved father of his son's passing showcased the emotional toll of lacking appropriate language skills, reflecting real-world struggles in expressing empathy. The letter to the King illustrated the societal repercussions of lacking diplomatic skills, mirroring situations where individuals, lacking social finesse, may face unintended consequences.</p>
+        <p>In summary, the Quill playthrough shed light on the nuanced difficulties faced by those with limited writing skills, emotional intelligence, and social status, prompting reflection on broader issues in academia and the world.</p>
+        <h3 id="day-2-8">2/8: RPG Group Play-Session</h3>
+        <p>This weekend's D&D 5E session took a thrilling turn as our party staged a coup, transforming our quest into an impromptu city simulator game. The DM adeptly adapted to our choices, revealing the dynamic nature of our characters. Alignments clashed, alliances formed, and the responsibilities of governance unfolded, reflecting the complexities of leadership.</p>
+        <p>The session showcased the collaborative storytelling essence of D&D. Dice rolls and character sheets laid the foundation for a living, breathing world that responded to our choices. The unexpected city simulation added a layer of realism, prompting contemplation on the parallels between our in-game decisions and real-world leadership dynamics.</p>
+        <p>In essence, this unexpected dive into city simulation within our D&D 5E campaign unveiled new dimensions of role-playing and storytelling. It highlighted the versatility of the game system and the creative synergy that emerges when players and DM navigate uncharted realms together.</p>
+        <h1 id="campaign-3">Campaign III: Greater Games</h1>
+        <h2 id="week-5">Week V: Meta-Gaming Academia & the Rest + Systemic Analysis</h2>
+        <h3 id="day-2-13">2/13: How is course design like game design?</h3>
+        <p>The chapter delves into the dynamic relationship between role-playing games (RPGs) and learning across formal education, professional training, and informal settings. It intricately weaves together diverse learning theories, emphasizing their complementary nature.</p>
+        <p>Key insights explore the efficacy of games, particularly RPGs, as potent tools for learning. The chapter dissects the underlying mechanisms facilitating learning through gaming, providing essential cues for designing impactful game-based learning interventions.</p>
+        <p>Central to the discussion is the intersection of learning, games, and role-playing. Historical insights into educational RPGs and an analysis of five affordances that make RPGs conducive to education pave the way for future adaptations.</p>
+        <p>Ultimately, the chapter underscores the necessity of aligning learning theories with RPG practices, emphasizing the multifaceted nature of RPGs as powerful tools for skill development, motivation, collaboration, and reflective thinking. The exploration reveals a promising realm where education and RPGs converge, offering a spectrum of possibilities for enriched learning experiences.</p>
+        <h3 id="day-2-15">2/15: Let’s Play Academia!</h3>
+        <p>In my academia sketch, the computer science major appears as a structured fortress with defined classes akin to navigating an algorithmic labyrinth. Strict rules and automated grading systems define success, leaving little room for exploration.</p>
+        <p>In contrast, the TTRPG course transforms academia into an open-world adventure. Here, flexibility and creativity prevail over rigid structures. The Dungeon Master's role becomes a guide, fostering collaboration and a dynamic learning environment.</p>
+        <p>The sketch highlights the stark difference between conforming to predefined algorithms in computer science and embracing collaborative storytelling and creativity in the TTRPG course. It prompts reflection on the diverse approaches academia can adopt to foster meaningful learning experiences.</p>
+        <h2 id="week-6">Week VI: Conclusions?</h2>
+        <h3 id="day-2-22">2/22: Conclusion</h3>
+        <p>Looking back on a year of delving into Tabletop Roleplaying Games (TTRPGs) and their connections with academia, the journey has been diverse and insightful.</p>
+        <p>Starting with course introductions and mapping out the term, the aim was to gain a comprehensive understanding of TTRPGs. The intersection with a game development capstone provided a balanced view, covering both cultural and technical aspects.</p>
+        <p>Exploring the histories and evolution of RPGs revealed their roles in self-exploration, community building, and immersive gameplay. Practical activities, like creating a Dungeons & Dragons character, bridged theory and experience, emphasizing the transformative potential of gaming.</p>
+        <p>The exploration of RPGs in education showcased promising intersections. Aligning learning theories with RPG practices unveiled transformative learning experiences. Comparing academia to a rigid fortress and the TTRPG course to an open-world adventure highlighted the importance of flexibility and creativity in meaningful learning.</p>
+        <p>This year's TTRPG exploration extended beyond mechanics, offering lessons in imagination, learning, and community dynamics. The insights gained go beyond academia, providing a broader understanding of the interplay between games, culture, and education.</p>
+        <p>In conclusion, armed with insights from this adventure, the commitment to creativity, collaboration, and embracing the unknown persists. As the academic chapter concludes, the journey through TTRPGs continues, and the adventure remains ongoing.</p>
     </div>
-    <p>Today's activity, inspired by Antero Garcia's insights into Dungeons & Dragons (D&D) systems, involved drawing a map of my childhood home in Texas. Similar to how D&D's rule system influences group understanding, this mapping exercise served as a personal artifact reflecting my experiences and memories within the space.</p>
-    <p>I chose to go with a broad overview of my home becuase when I passed the initial phase of drawing doors and rooms, things started to feel like a D&D map. I could have gone into more detail, but doing so would decrease the agency of the viewer by forcing their reality to align with mine.</p>
-    <p>Additionally, for uncertain details, I found myself filling drifting toward whatever implicitly "felt right", supporting Garcia's idea of implicit biases in gaming systems and reaffirming my choice to leave the map open to viewer interpretation.</p>
-    <h2>Week III: Exploration, Worldbuilding, Imagination, & Emergent Storytelling</h2>
-    <h3>1/30: Can imagination and play be effective tools for creating more meaningful narratives?</h3>
-    <p>In contemplating a past I wish to change, I found myself transported to a moment in video game development, specifically the era of the ET NES game and the subsequent lull in the industry. In this imaginative exercise, the altered past diverges from the reality of the video game crash, envisioning a scenario where thoughtful curation and quality control prevailed. The stakes are high as this alternate timeline seeks to avoid the negative impact on the gaming industry, preserving creativity, innovation, and sustained growth.</p>
-    <p>In drawing connections with Yunte Huang's article, "Our Literature, Their History," the exercise prompts reflection on the consequences of self-reflective and inward-focused discussions, much like the debates around the Yasusada hoax. Similarly, the video game industry's challenges in this altered past resonate with the need for a more genuine engagement with external perspectives, considering the impact beyond one's immediate context.</p>
-    <p>Questions arising from this imaginative exercise align with Huang's call for a teleopoetic approach. How might a more collaborative and globally informed video game industry have influenced cultural representation within games? Would this alternative past have mitigated the ethnocentric pitfalls that plagued the literary debates discussed by Huang? The exercise underscores the importance of acknowledging historical experiences and fostering a responsible, planetary imagination in both literature and the realm of video game development.</p>
-    <h3>2/1: Can games help us responsibly explore the past and other cultures?  What happens when they don’t?</h3>
-    <p>This thought-provoking blog post navigates the intricate realms of Black studies, fantasy role-playing games, and the nuanced representation of races, specifically orcs, within Dungeons & Dragons (DND). The author adeptly connects visual art, philosophical quotes, and critical perspectives to underscore the discomfort with modern attempts by DND to address racial issues.</p>
-    <p>The exploration of Black counterhumanism, influenced by esteemed thinkers like Du Bois, Césaire, Fanon, and Wynter, adds layers to the critique of liberal humanism's incorporation efforts. The post aptly critiques the perpetuation of implicit hierarchies within universal humanity, referencing Spillers and Hartman to illuminate the inherent flaws in the concept of universal rights amid racial oppression.</p>
-    <p>The parallel drawn between the struggles of orcs in DND and the historical struggles of Black people introduces a profound exploration of kinship with the abject and the concept of kinmaking beyond the human realm. This connection invites a reevaluation of metaphysical frameworks, urging the gaming community to delve into alternative perspectives that may offer a different, more profound joy.</p>
-    <p>The call for a deeper exploration of alterity in fantasy role-playing games resonates, emphasizing the need to cut through traditional narratives and embrace diverse perspectives. The author's reference to specific games and works embracing alternative viewpoints serves as a valuable guide for those seeking a richer, more inclusive gaming experience. In essence, the post encourages a reimagining of fantasy worlds that transcends conventional boundaries, fostering a space where joy emerges from embracing and celebrating difference.</p>
-    <h2>Week IV: Empathy & Umwelt</h2>
-    <h3>2/6: Is empathy possible?  What are the pitfalls of empathy?</h3>
-    <div class="embed-container">
-        <object data="playthrough.pdf" width="50%" height="500" type="application/pdf"></object>
-    </div>
-    <p>Today's Quill playthrough highlighted the frustrations of lacking writing skills. As a Knight with average penmanship and poor language, expressing emotions and navigating delicate situations proved challenging. It mirrored real-world struggles for those with limited literacy, emotional skills, and social status.</p>
-    <p>The letter to Archduke Godfrey revealed the difficulty of conveying heartfelt emotions with constrained language, reflecting challenges in real-life communication for those with poor literacy. Addressing concerns with Art Dealer Christina Bowbridge underscored the importance of emotional intelligence in professional relationships, resonating with challenges in academia.</p>
-    <p>Informing a bereaved father of his son's passing showcased the emotional toll of lacking appropriate language skills, reflecting real-world struggles in expressing empathy. The letter to the King illustrated the societal repercussions of lacking diplomatic skills, mirroring situations where individuals, lacking social finesse, may face unintended consequences.</p>
-    <p>In summary, the Quill playthrough shed light on the nuanced difficulties faced by those with limited writing skills, emotional intelligence, and social status, prompting reflection on broader issues in academia and the world.</p>
-    <h3>2/8: RPG Group Play-Session</h3>
-    <p>This weekend's D&D 5E session took a thrilling turn as our party staged a coup, transforming our quest into an impromptu city simulator game. The DM adeptly adapted to our choices, revealing the dynamic nature of our characters. Alignments clashed, alliances formed, and the responsibilities of governance unfolded, reflecting the complexities of leadership.</p>
-    <p>The session showcased the collaborative storytelling essence of D&D. Dice rolls and character sheets laid the foundation for a living, breathing world that responded to our choices. The unexpected city simulation added a layer of realism, prompting contemplation on the parallels between our in-game decisions and real-world leadership dynamics.</p>
-    <p>In essence, this unexpected dive into city simulation within our D&D 5E campaign unveiled new dimensions of role-playing and storytelling. It highlighted the versatility of the game system and the creative synergy that emerges when players and DM navigate uncharted realms together.</p>
-    <h1>Campaign III: Greater Games</h1>
-    <h2>Week V: Meta-Gaming Academia & the Rest + Systemic Analysis</h2>
-    <h3>2/13: How is course design like game design?</h3>
-    <p>The chapter delves into the dynamic relationship between role-playing games (RPGs) and learning across formal education, professional training, and informal settings. It intricately weaves together diverse learning theories, emphasizing their complementary nature.</p>
-    <p>Key insights explore the efficacy of games, particularly RPGs, as potent tools for learning. The chapter dissects the underlying mechanisms facilitating learning through gaming, providing essential cues for designing impactful game-based learning interventions.</p>
-    <p>Central to the discussion is the intersection of learning, games, and role-playing. Historical insights into educational RPGs and an analysis of five affordances that make RPGs conducive to education pave the way for future adaptations.</p>
-    <p>Ultimately, the chapter underscores the necessity of aligning learning theories with RPG practices, emphasizing the multifaceted nature of RPGs as powerful tools for skill development, motivation, collaboration, and reflective thinking. The exploration reveals a promising realm where education and RPGs converge, offering a spectrum of possibilities for enriched learning experiences.</p>
-    <h3>2/15: Let’s Play Academia!</h3>
-    <p>In my academia sketch, the computer science major appears as a structured fortress with defined classes akin to navigating an algorithmic labyrinth. Strict rules and automated grading systems define success, leaving little room for exploration.</p>
-    <p>In contrast, the TTRPG course transforms academia into an open-world adventure. Here, flexibility and creativity prevail over rigid structures. The Dungeon Master's role becomes a guide, fostering collaboration and a dynamic learning environment.</p>
-    <p>The sketch highlights the stark difference between conforming to predefined algorithms in computer science and embracing collaborative storytelling and creativity in the TTRPG course. It prompts reflection on the diverse approaches academia can adopt to foster meaningful learning experiences.</p>
-    <h2>Week VI: Conclusions?</h2>
-    <h3>2/22: Conclusion</h3>
-    <p>Looking back on a year of delving into Tabletop Roleplaying Games (TTRPGs) and their connections with academia, the journey has been diverse and insightful.</p>
-    <p>Starting with course introductions and mapping out the term, the aim was to gain a comprehensive understanding of TTRPGs. The intersection with a game development capstone provided a balanced view, covering both cultural and technical aspects.</p>
-    <p>Exploring the histories and evolution of RPGs revealed their roles in self-exploration, community building, and immersive gameplay. Practical activities, like creating a Dungeons & Dragons character, bridged theory and experience, emphasizing the transformative potential of gaming.</p>
-    <p>The exploration of RPGs in education showcased promising intersections. Aligning learning theories with RPG practices unveiled transformative learning experiences. Comparing academia to a rigid fortress and the TTRPG course to an open-world adventure highlighted the importance of flexibility and creativity in meaningful learning.</p>
-    <p>This year's TTRPG exploration extended beyond mechanics, offering lessons in imagination, learning, and community dynamics. The insights gained go beyond academia, providing a broader understanding of the interplay between games, culture, and education.</p>
-    <p>In conclusion, armed with insights from this adventure, the commitment to creativity, collaboration, and embracing the unknown persists. As the academic chapter concludes, the journey through TTRPGs continues, and the adventure remains ongoing.</p>
 </body>
 </html>
